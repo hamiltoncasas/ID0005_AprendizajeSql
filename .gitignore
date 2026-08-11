@@ -1,0 +1,29 @@
+# Archivos transitorios de SQLite (se generan solo mientras la base está abierta)
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Copias de seguridad (no son entregables)
+*.bak
+*.trn
+
+# Archivos temporales y de sistema
+Thumbs.db
+Desktop.ini
+*.tmp
+~$*
+.DS_Store
+
+# Configuración local del editor
+.vscode/
+.idea/
+*.suo
+*.user
+
+# No subir datos confidenciales
+*.env
+.env
+
+# Nota: los archivos de trabajo del estudiante SÍ se suben al repo:
+# bases de datos (.db, .sqlite), consultas (.sql), imágenes (.png/.jpg),
+# documentos Word (.docx) y Excel (.xlsx).
