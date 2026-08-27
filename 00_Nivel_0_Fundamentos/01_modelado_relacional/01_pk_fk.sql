@@ -1,0 +1,15 @@
+-- Tarea 2: PK y FK
+--
+-- PK (Primary Key o clave primaria):
+-- Es el campo que identifica de forma única cada registro de una tabla.
+-- Por ejemplo, id_cliente puede identificar a cada cliente y no debe repetirse.
+--
+-- FK (Foreign Key o clave foránea):
+-- Es un campo que conecta una tabla con otra mediante una clave primaria.
+-- Por ejemplo, id_cliente en Pedidos puede indicar qué cliente realizó el pedido.
+--
+-- Ejemplo:
+-- Clientes: id_cliente (PK)
+-- Pedidos: id_pedido (PK), id_cliente (FK)
+--
+-- La FK id_cliente de Pedidos hace referencia a la PK id_cliente de Clientes.

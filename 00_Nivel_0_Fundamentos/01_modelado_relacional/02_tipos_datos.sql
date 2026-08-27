@@ -1,0 +1,8 @@
+-- Tarea 4: Tabla básica Clientes
+--
+-- CREATE TABLE Clientes (
+--     id_cliente INT AUTO_INCREMENT PRIMARY KEY,
+--     nombre VARCHAR(100) NOT NULL,
+--     correo VARCHAR(100),
+--     telefono VARCHAR(20)
+-- );
